@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Belajar Bootstrap</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  <div class="container-fluid">
+
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" alt="Proweb" class="logo me-2" height="45px" width="auto"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tutorial</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">HTML</a></li>
+            <li><a class="dropdown-item" href="#">CSS</a></li>
+            <li><a class="dropdown-item" href="#">Javascript</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">PHP</a></li>
+            <li><a class="dropdown-item" href="#">MySQL</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Hubungi</a>
+        </li>
+      </ul>
+      <div class="d-flex ms-lg-3 mt-3 mt-lg-0">
+        <button class="btn btn-outline-success me-2">Daftar</button>
+        <form class="d-flex" role="submit">
+        <button class="btn btn-primary">Masuk</button>
+    </div>
+  </div>
+  </div>
+</nav>
+
+    <section class="py-5 bg-light">
+   <div class="container">
+    <div class="row align-items-center">
+        <div class="col align-self-center">
+            <h2 style="font-family: Lobster; color: #4682B4;">Selamat Datang di Proweb</h2>
+            <p class="my-3">Tutorial belajar pemograman menggunakan bootstrap 🚀<br></p>
+            <a href="#" class="btn btn-outline-dark" style="border-radius: 20px; padding: 8px 20px;">Mulai</a>
+            </div>
+            <div class="col align-self-center">
+            <img src="gambar.jpg" alt="Teknologi" style="max-width: 80%; border-radius: 12px;">
+        </div>
+        </div>
+        </div>
+    </section> 
+
+    <section class="py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-5" style="font-family: Lobster; color:#4682B4;">Informasi Dunia Pemograman</h3>
+      <div class="row g-4">
+  
+  <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+  <div class="card h-100" style="width: 18rem;">
+  <img src="gambar1.jpg" class="card-img-top img-fluid" alt="Gambar">
+  <div class="card-body text-center">
+    <h5 class="card-title">Bahasa Pemograman</h5>
+    <p class="card-text">Bahasa berbeda, tujuan sama: membangun dunia dengan kode 🌍</p>
+    <a href="#" class="btn btn-primary">Selengkapnya</a>
+  </div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+      <div class="card h-100" style="width: 18rem;">
+  <img src="gambar2.jpg" class="card-img-top img-fluid" alt="Gambar">
+  <div class="card-body text-center">
+    <h5 class="card-title">ERROR</h5>
+    <p class="card-text">Error bukan akhir, tapi langkah untuk belajar lebih baik 💡</p>
+    <a href="#" class="btn btn-primary">Selengkapnya</a>
+  </div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+      <div class="card h-100" style="width: 18rem;">
+  <img src="gambar3.jpg" class="card-img-top img-fluid" alt="Gambar">
+  <div class="card-body text-center">
+    <h5 class="card-title">Hello World</h5>
+    <p class="card-text">Awal dari segalanya: <b>Hello World!</b> 🚀</p>
+    <a href="#" class="btn btn-primary">Selengkapnya</a>
+  </div>
+</div>
+</div>
+      </div>
+    </div>  
+    </section>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
